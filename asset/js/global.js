@@ -4,14 +4,14 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzHmh5Xxv6wEkwdzcpNHv
 // Price per referral
 const prices = {
 Telegram: {
-BTC: 0.00000125,
-ETH: 0.00003254,
-USDT: 0.12632778,
-SOL: 0.00052815,
-BNB: 0.00017337,
-XRP: 0.05290242,
-DOGE: 0.28907666,
-TON: 0.01812365,
+BTC: 0.00000096,
+ETH: 0.00002476,
+USDT: 0.09471885,
+SOL: 0.00042197,
+BNB: 0.00013232,
+XRP: 0.03973359,
+DOGE: 0.21928991,
+TON: 0.01482759,
 },
 Testnet: {
 BTC: 0.00000155,
