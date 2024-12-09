@@ -474,7 +474,7 @@ font-style:italic;
 /* PAYMENT */
 .info-payment{
 box-sizing:border-box;
-background-color:rgb(0,0,0,.5);
+background-color:rgb(0,0,0,.4);
 backdrop-filter:blur(2px);
 padding:20px;
 margin:0 auto;
