@@ -1,5 +1,5 @@
 /* FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,500;1,700;1,800;1,900&display=swap');
 /* BASIC */
 *{
 margin:0;
@@ -24,7 +24,7 @@ p{
 font-weight:400;
 }
 b, strong{
-font-weight:600;
+font-weight:500;
 }
 a{
 text-decoration:none;
@@ -81,7 +81,7 @@ color:#141414;
 padding:10px 20px;
 margin:0;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 }
@@ -115,7 +115,7 @@ color:#ffffff;
 font-size:40px;
 margin:0 0 20px 0;
 padding:0;
-font-weight:600;
+font-weight:500;
 }
 .hero-item h2 span{
 color:#bbff2e;
@@ -123,7 +123,7 @@ color:#bbff2e;
 .hero-item h3{
 color:#ffffff;
 font-size:20px;
-font-weight:600;
+font-weight:500;
 padding:0;
 margin:0 0 10px 0;
 }
@@ -141,7 +141,7 @@ text-align:center;
 margin:0;
 padding:10px 20px;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 width:50%;
@@ -174,7 +174,7 @@ overflow:hidden;
 .service-content h3{
 color:#bbff2e;
 font-size:18px;
-font-weight:600;
+font-weight:500;
 padding:0;
 margin:0 0 10px 0;
 }
@@ -196,7 +196,7 @@ color:#ffffff;
 font-size:40px;
 margin:0 0 40px 0;
 padding:0;
-font-weight:600;
+font-weight:500;
 text-align:center;
 }
 .shopping h2 span{
@@ -214,7 +214,7 @@ border:1px solid #222222;
 .shopping-form h3{
 color:#ffffff;
 font-size:20px;
-font-weight:600;
+font-weight:500;
 padding:0;
 margin:0 0 20px 0;
 }
@@ -353,7 +353,7 @@ font-family:'Poppins',sans-serif;
 margin:0 auto;
 padding:10px 20px;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 border:none;
@@ -391,7 +391,7 @@ color:#ffffff;
 font-size:40px;
 margin:0 0 40px 0;
 padding:0;
-font-weight:600;
+font-weight:500;
 }
 .benefit h2 span{
 color:#bbff2e;
@@ -468,7 +468,7 @@ margin:0;
 .footer a{
 color:#bbff2e;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 }
 /* PAYMENT */
 .info-payment{
@@ -503,7 +503,7 @@ margin:0 0 10px 0;
 }
 .payment-content p span{
 color:#bbff2e;
-font-weight:600;
+font-weight:500;
 }
 .data-payment{
 box-sizing:border-box;
@@ -556,7 +556,7 @@ border:1px dashed #bbff2e;
 box-sizing:border-box;
 color:#ffffff;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 margin:0 0 10px 0;
 padding:0;
 display:block;
@@ -572,7 +572,7 @@ margin:0 auto;
 padding:10px 20px;
 color:#000000;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 border:none;
@@ -593,7 +593,7 @@ margin:0 auto;
 padding:10px 20px;
 color:#000000;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 border:none;
@@ -609,7 +609,7 @@ margin:0 auto;
 padding:10px 20px;
 color:#ff0000;
 font-size:15px;
-font-weight:600;
+font-weight:500;
 border-radius:5px;
 cursor:pointer;
 border:1px solid #ff0000;
