@@ -159,7 +159,7 @@ document.querySelector(".info-payment").innerHTML = `
 </table>
 </div>
 <p>Thank you, <span>${formData.get("name")}</span></p>
-<p>Please make a payment of <span>${formData.get("total")}</span> to the following wallet address:</p>
+<p>Please make a transaction of <span>${formData.get("total")}</span> to the following wallet address:</p>
 <div class="crypto-address">
 <p id="addressCrypto">${walletAddress[formData.get("method")]}</p>
 <button onclick="copyText()">Copy Wallet Address</button>
