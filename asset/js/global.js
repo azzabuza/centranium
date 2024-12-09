@@ -77,9 +77,9 @@ defaultOption.textContent = "Select platform";
 platform.appendChild(defaultOption);
 
 const options = {
-Telegram: ["Blum", "Tomarket", "Major", "Paws"],
-Testnet: ["Grass", "Gradient Network", "Navigate", "BlockMesh Network", "Dawn"],
-Exchange: ["Binance", "OKX", "Bitget", "Gate.io"],
+Telegram: ["Blum", "Tomarket", "Paws", "Tapswap"],
+Testnet: ["Grass", "Gradient Network", "Nodepay", "Navigate", "BlockMesh Network", "Dawn"],
+Exchange: ["Binance", "OKX", "Bitget", "Gate.io", "Bybit"],
 }[project] || [];
 
 options.forEach(option => {
