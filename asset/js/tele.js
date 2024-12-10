@@ -1,4 +1,3 @@
-
 document.getElementById('shoppingForm').addEventListener('submit', function(event) {
 event.preventDefault(); // Mencegah formulir dikirimkan secara default
 
@@ -12,9 +11,24 @@ const telegram = document.getElementById('telegram').value;
 const method = document.querySelector('input[name="method"]:checked')?.value;
 const total = document.getElementById('total').value;
 
+// Dapatkan tanggal dan waktu saat ini
+const now = new Date();
+const formattedDate = now.toLocaleDateString('id-ID', { 
+year: 'numeric', 
+month: 'long', 
+day: 'numeric' 
+});
+const formattedTime = now.toLocaleTimeString('id-ID', { 
+hour: '2-digit', 
+minute: '2-digit', 
+second: '2-digit' 
+});
+
 // Format pesan untuk bot
 const message = `
 *NEW ORDER RECEIVED*\n
+Date: ${formattedDate}\n
+Time: ${formattedTime}\n
 ------------------------\n
 Project: ${project}\n
 Platform: ${platform}\n
@@ -26,7 +40,6 @@ Contact: ${telegram}\n
 Payment: ${method}\n
 Total: ${total}
 `;
-
 
 // Kirim data ke bot Telegram
 const botToken = '7555714605:AAEr1TbWrE8K8oB8ayVobOfhDhcxxwMr768';
@@ -43,4 +56,3 @@ console.log('Message sent to Telegram:', data);
 console.error('Error sending message:', error);
 });
 });
-
