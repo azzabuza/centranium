@@ -14,11 +14,13 @@ const total = document.getElementById('total').value;
 
 // Format pesan untuk bot
 const message = `
-*NEW ORDER RECEIVED*\n\n
+*NEW ORDER RECEIVED*\n
+------------------------\n
 Project: ${project}\n
 Platform: ${platform}\n
 Amount: ${amount}\n
-Referral: ${refferal}\n\n
+Referral: ${refferal}\n
+------------------------\n
 Name: ${name}\n
 Contact: ${telegram}\n
 Payment: ${method}\n
