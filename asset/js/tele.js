@@ -21,7 +21,7 @@ document.getElementById('shoppingForm').addEventListener('submit', function(even
         *Referral URL/Code:* ${refferal}\n
         *Name:* ${name}\n
         *Contact (Telegram):* ${telegram}\n
-        *Payment Method:* ${method}
+        *Payment Method:* ${method}\n
         *Total:* ${total}
     `;
 
