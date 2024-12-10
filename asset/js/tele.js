@@ -36,7 +36,7 @@ Amount: ${amount}\n
 Referral: ${refferal}\n
 ------------------------\n
 Name: ${name}\n
-Contact: ${telegramL}\n
+Contact: ${telegram}\n
 Payment: ${method}\n
 Total: ${total}
 `;
