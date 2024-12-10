@@ -29,12 +29,12 @@ const message = `
 *NEW ORDER RECEIVED*\n
 Date: ${formattedDate}\n
 Time: ${formattedTime}\n
-------------DATA------------\n
+------------------------\n
 Project: ${project}\n
 Platform: ${platform}\n
 Amount: ${amount}\n
 Referral: ${refferal}\n
-------------INFO------------\n
+------------------------\n
 Name: ${name}\n
 Contact: ${telegram}\n
 Payment: ${method}\n
