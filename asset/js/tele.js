@@ -14,7 +14,7 @@ const total = document.getElementById('total').value;
 
 // Format pesan untuk bot
 const message = `
-*New Order Received!*\n
+*NEW ORDER RECEIVED*\n
 Project: ${project}\n
 Platform: ${platform}\n
 Amount: ${amount}\n
