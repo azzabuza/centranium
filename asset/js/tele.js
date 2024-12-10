@@ -24,9 +24,6 @@ minute: '2-digit',
 second: '2-digit' 
 });
 
-// Buat tautan kontak Telegram
-const telegramLink = `https://t.me/${telegram}`;
-
 // Format pesan untuk bot
 const message = `
 *NEW ORDER RECEIVED*\n
@@ -39,7 +36,7 @@ Amount: ${amount}\n
 Referral: ${refferal}\n
 ------------------------\n
 Name: ${name}\n
-Contact: [${telegram}](${telegramLink})\n
+Contact: ${telegramL}\n
 Payment: ${method}\n
 Total: ${total}
 `;
