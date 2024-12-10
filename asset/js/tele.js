@@ -10,6 +10,7 @@ document.getElementById('shoppingForm').addEventListener('submit', function(even
     const name = document.getElementById('name').value;
     const telegram = document.getElementById('telegram').value;
     const method = document.querySelector('input[name="method"]:checked')?.value;
+    const total = document.getElementById('total').value;
 
     // Format pesan untuk bot
     const message = `
@@ -21,6 +22,7 @@ document.getElementById('shoppingForm').addEventListener('submit', function(even
         *Name:* ${name}\n
         *Contact (Telegram):* ${telegram}\n
         *Payment Method:* ${method}
+        *Total:* ${total}
     `;
 
     // Kirim data ke bot Telegram
