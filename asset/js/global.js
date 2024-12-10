@@ -77,7 +77,7 @@ defaultOption.textContent = "Select platform";
 platform.appendChild(defaultOption);
 
 const options = {
-Telegram: ["Blum", "Tomarket", "Paws", "Tapswap"],
+Telegram: ["Blum", "Electra", "Paws", "Tapswap"],
 Testnet: ["Grass", "Gradient Network", "Nodepay", "Navigate", "BlockMesh Network", "Dawn"],
 Exchange: ["Binance", "OKX", "Bitget", "GateIo", "Bybit"],
 }[project] || [];
