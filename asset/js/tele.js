@@ -14,19 +14,20 @@ const total = document.getElementById('total').value;
 
 // Format pesan untuk bot
 const message = `
-New Order Received!\n
+*New Order Received!*\n
 Project: ${project}\n
 Platform: ${platform}\n
 Amount: ${amount}\n
-Referral URL/Code: ${refferal}\n
+Referral: ${refferal}\n
 Name: ${name}\n
-Contact (Telegram): ${telegram}\n
-Payment Method: ${method}
+Contact: ${telegram}\n
+Payment: ${method}\n
+Total: ${total}
 `;
 
 
 // Kirim data ke bot Telegram
-const botToken = '7459894598:AAGl2lQzvy_GZAzUdfwBlc1tSbZSaiI54Lc';
+const botToken = '7555714605:AAEr1TbWrE8K8oB8ayVobOfhDhcxxwMr768';
 const chatId = '6115365841';
 const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=Markdown`;
 
