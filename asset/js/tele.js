@@ -28,13 +28,11 @@ second: '2-digit'
 const message = `
 *NEW ORDER RECEIVED!!!*\n
 Date: ${formattedDate}\n
-Time: ${formattedTime}\n
-------------------------\n
+Time: ${formattedTime}\n\n
 Project: ${project}\n
 Platform: ${platform}\n
 Amount: ${amount}\n
-Referral: ${refferal}\n
-------------------------\n
+Referral: ${refferal}\n\n
 Name: ${name}\n
 Contact: ${telegram}\n
 Payment: ${method}\n
