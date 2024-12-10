@@ -1,4 +1,4 @@
-<script>
+
 document.getElementById('shoppingForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Mencegah formulir dikirimkan secara default
     
@@ -38,4 +38,4 @@ document.getElementById('shoppingForm').addEventListener('submit', function(even
             console.error('Error sending message:', error);
         });
 });
-</script>
+
